@@ -244,7 +244,7 @@ BEGIN
     BEGIN CATCH
         PRINT '==============================================';
         PRINT 'ERROR OCCURED DURING LOADING SILVER LAYER';
-        PRINT 'Error Message' + ERROR_Message();
+        PRINT 'Error Message' + ERROR_MESSAGE();
         PRINT 'Error Number' + CAST(ERROR_NUMBER() AS NVARCHAR);
         PRINT 'Error State' + CAST(ERROR_STATE() AS NVARCHAR);
         PRINT '==============================================';
