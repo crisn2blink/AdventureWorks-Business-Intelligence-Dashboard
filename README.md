@@ -124,29 +124,31 @@ For more details, refer to [docs/requirements.md](https://github.com/crisn2blin
 │   ├── bronze/
 │   ├── silver/
 │   ├── gold/
-│   └── scripts/
-│   └── docs/
+│   ├── scripts/
+│   ├── docs/
 │
 ├── 02-eda/
 │   ├── README.md
 │   ├── queries/
 │   ├── query_outputs/
-│   └── summary page*/
+│   ├── summary page*/
 │
 ├── 03-dashboard/
 │   ├── README.md
 │   ├── pbix/
 │   ├── screenshots/
-│   └── measures/
-│   └── business insights/
+│   ├── measures/
+│   ├── business insights/
 │
 └── docs/
-    ├── data-catalog.md                 # Catalog of datasets, including field descriptions and metadata
-    ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
-    ├── business-task.md                # Questions meant to be answered by analysis
-    └── methodology.md
-    └── data model
-    └── lessons learned
+    ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
+    ├── naming_conventions.md           # Consistent naming guidelines for tables, columns, and files
+    ├── business_task.md                # Questions meant to be answered by analysis
+    ├── methodology.md
+    ├── integration_model_diagram.drawio
+    ├── project_diagram.drawio
+    ├── sales_data_mart.drawio
+    ├── lessons learned
 ```
 
 * * *
@@ -163,4 +165,5 @@ This project is licensed under the \[MIT License\] (LICENSE). You are free to us
 
 ## About Me
 
-Hi! I'm **Cristian Cervantes**. I'm a developing business analyst and yoga practitioner on a mission to share knowledge while simultaneously learning.
+Hi! I'm **Cristian Cervantes**. I'm a developing business analyst and yoga practitioner on a mission to share knowledge while simultaneously develop my skills. My core
+compentencies lie in taking an analysis project from conceptualization to the final dashboard presentation; dealing with all aspects from database engineering all the way to dashboard creation.
