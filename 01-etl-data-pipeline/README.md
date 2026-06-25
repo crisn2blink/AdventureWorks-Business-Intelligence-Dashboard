@@ -6,7 +6,7 @@ Objective
 
 Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making through the process of Extracting, Transforming and Loading the data.
 
-- **Data Sources**: 
+- **Data Sources**: CRM, ERP systems
 
 <br>
 
@@ -52,17 +52,15 @@ data-warehouse-project/
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
 ├── docs/                               # Project documentation and architecture details
-│   ├── project_diagram.drawio          # Draw.io file shows the project's architecture
-│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
-│   ├── data_flow_diagram.drawio        # Draw.io file for the data flow diagram
-│   ├── sales_data_mart.drawio          # Draw.io file for data models (star schema)
-│   ├── assumptions                     # All of the assumptions that came to be part of the analysis
+│   ├── measures & calculated columns   # Table explaining all of the measures & calculated columns created
+│   ├── business assumptions            # All of the assumptions that came to be part of the analysis
 │   ├── cleaning decisions              # Clarifications for ETL process
 │
 ├── scripts/                            # SQL scripts for ETL and transformations
 │   ├── bronze/                         # Scripts for extracting and loading raw data
 │   ├── silver/                         # Scripts for cleaning and transforming data
 │   ├── gold/                           # Scripts for creating analytical models
+│   ├── int_database/                   # Script for creating database
 │
 ├── tests/                              # Test scripts and quality files
 │
