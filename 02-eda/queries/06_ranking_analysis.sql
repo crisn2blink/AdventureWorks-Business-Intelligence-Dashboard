@@ -76,3 +76,14 @@ GROUP BY
     c.first_name,
     c.last_name
 ORDER BY total_orders ;
+
+-- Categories by revenue generation
+SELECT
+    d.category,
+    d.subcategory,
+    SUM(sales_amount) AS total_revenue
+FROM gold.fact_sales f
+LEFT JOIN gold.dim_products d
+    ON f.product_key = d.product_key
+GROUP BY d.category, d.subcategory
+ORDER BY  total_revenue DESC
