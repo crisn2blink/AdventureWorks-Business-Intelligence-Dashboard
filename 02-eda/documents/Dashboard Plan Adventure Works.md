@@ -31,14 +31,12 @@ _\* Goal (desired outcome of presentation):_
     - Managers
 
 _<br>
-_
 
-_
 
 * * *
 
 <br>
-_
+
 
 ## Dashboard Planning
 
