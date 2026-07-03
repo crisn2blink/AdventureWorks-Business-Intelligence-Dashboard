@@ -30,15 +30,11 @@ _\* Goal (desired outcome of presentation):_
 3. Who is the audience:
     - Managers
 
-_<br>
-_
-
-_
+<br>
 
 * * *
 
 <br>
-_
 
 ## Dashboard Planning
 
