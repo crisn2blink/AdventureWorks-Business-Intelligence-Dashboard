@@ -195,19 +195,30 @@ THE RESULTS OF THE EDA ARE FOUND IN THE “SUMMARY PAGE” DOCUMENT IN THIS REPO
 ## 📂 Part II Repository Structure
 
 ```
-data-warehouse-project/
-├── README/                            # Important instructions for following along 
-├── queries/                           # The SQL syntax for the 10 EDA queries
-│   ├──Dimension Exploration
-│   ├──Date Exploration
-│   ├──Measure Exploration
-│   ├──Magnitude Analysis
-│   ├──Ranking Analysis
-│   ├──Change Over Time
-│   ├──Cumulative Analysis
-│   ├──Performance Analysis
-│   ├──Part-to-Whole Analysis
-│   ├──Data Segmentation Analysis
-├── summary page                       # Summary of all the findings for the EDA
+AdventureWorks-Business-Intelligence-Dashboard/
+02-eda/                                # Exploratory Data Analysis using the gold layer business views
+│
+├── documents/                         # Supporting documentation, summary notes, and planning materials
+│   ├── eda_summary_notes.pdf          # Summary notes and key findings from the EDA process
+│   ├── project_notes_sketches.pdf     # Project notes, sketches, and early analysis planning
+│   └── project_roadmap.pdf            # Roadmap for the broader BI dashboard project
+│
+├── queries/                           # SQL scripts used for EDA, reporting, and analytical exploration
+│   ├── 00_init_database.sql           # Initializes or selects the database environment for EDA
+│   ├── 01_database_exploration.sql    # Explores database objects, schemas, tables, and available metadata
+│   ├── 02_dimensions_exploration.sql  # Explores dimension tables and categorical business attributes
+│   ├── 03_date_range_exploration.sql  # Identifies date boundaries and available time ranges
+│   ├── 04_measures_exploration.sql    # Calculates high-level business measures and key metrics
+│   ├── 05_magnitude_analysis.sql      # Compares measure values across business categories
+│   ├── 06_ranking_analysis.sql        # Identifies top and bottom performers using ranking logic
+│   ├── 07_change_over_time_analysis.sql # Analyzes trends across time periods
+│   ├── 08_cumulative_analysis.sql     # Calculates running totals and cumulative business performance
+│   ├── 09_performance_analysis.sql    # Compares current performance against benchmarks or previous periods
+│   ├── 10_data_segmentation.sql       # Segments customers, products, or sales using business rules
+│   ├── 11_part_to_whole_analysis.sql  # Calculates contribution percentages and proportional performance
+│   ├── 12_report_customers.sql        # Builds customer-level analytical reporting output
+│   └── 13_report_products.sql         # Builds product-level analytical reporting output
+│
+└── README.md                          # Part II overview, requirements, EDA process, and repository structure
 
 ```
