@@ -20,7 +20,7 @@ Perform EDA using the output of Part I (the gold layer business views) to gain g
 
 **STEPS**
 
-- Run the 10 EDA queries and record the results
+- Run the EDA queries and record the results
 - Summarize the results in a one-page document (summary page)
 
 <br>
