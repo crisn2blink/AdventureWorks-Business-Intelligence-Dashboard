@@ -47,31 +47,45 @@ The data architecture for this project follows Medallion Architecture **Bronze*
 ## 📂 Part I Repository Structure
 
 ```
-data-warehouse-project/
+AdventureWorks-Business-Intelligence-Dashboard/
+01-etl-data-pipeline/                   # ETL data pipeline and data warehouse build process
 │
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
-│   ├── crm_source/
-|       ├── cust_info.csv
-|       ├── prd_info.csv
-|       ├── sales_details.csv    
-│   ├── erp_source/
-|       ├── CUST_AZ12.csv
-|       ├── LOC_A101.csv
-|       ├── PX_CAT_G1V2.csv              
+│   │
+│   ├── crm_source/                     # CRM source system files
+│   │   ├── cust_info.csv               # Raw CRM customer information
+│   │   ├── prd_info.csv                # Raw CRM product information
+│   │   └── sales_details.csv           # Raw CRM sales transaction details
+│   │
+│   └── erp_source/                     # ERP source system files
+│       ├── CUST_AZ12.csv               # Raw ERP customer demographic data
+│       ├── LOC_A101.csv                # Raw ERP customer location data
+│       └── PX_CAT_G1V2.csv             # Raw ERP product category data
+│
 ├── docs/                               # Project documentation and architecture details
-│   ├── business assumptions            # All of the assumptions that came to be part of the analysis
-│   ├── cleaning decisions              # Clarifications for ETL process
+│   ├── business assumptions            # Assumptions used during analysis and modeling
+│   └── cleaning decisions              # ETL cleaning rules, transformations, and clarifications
 │
 ├── scripts/                            # SQL scripts for ETL and transformations
+│   │
 │   ├── bronze/                         # Scripts for extracting and loading raw data
+│   │   ├── ddl_bronze.SQL              # Creates bronze layer tables
+│   │   └── proc_load_bronze.sql        # Loads raw CSV data into bronze tables
+│   │
 │   ├── silver/                         # Scripts for cleaning and transforming data
+│   │   ├── ddl_silver.SQL              # Creates silver layer tables
+│   │   └── proc_load_silver.sql        # Cleans, standardizes, and loads data into silver tables
+│   │
 │   ├── gold/                           # Scripts for creating analytical models
-│   ├── int_database/                   # Script for creating database
+│   │   └── ddl_gold.sql                # Creates gold layer views/business-ready analytical objects
+│   │
+│   └── init_database.sql               # Initializes the database and required schemas
 │
 ├── tests/                              # Test scripts and quality files
+│   ├── quality_checks_gold.sql         # Validation checks for gold layer analytical objects
+│   └── quality_checks_silver.sql       # Validation checks for silver layer cleaned/transformed data
 │
-├── README.md                           # Project overview and instructions
-
+└── README.md                           # Project overview, requirements, architecture, and instructions
 ```
 
 <br>
