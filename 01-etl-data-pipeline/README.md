@@ -50,7 +50,14 @@ The data architecture for this project follows Medallion Architecture **Bronze*
 data-warehouse-project/
 │
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
-│
+│   ├── crm_source/
+|       ├── cust_info.csv
+|       ├── prd_info.csv
+|       ├── sales_details.csv    
+│   ├── erp_source/
+|       ├── CUST_AZ12.csv
+|       ├── LOC_A101.csv
+|       ├── PX_CAT_G1V2.csv              
 ├── docs/                               # Project documentation and architecture details
 │   ├── business assumptions            # All of the assumptions that came to be part of the analysis
 │   ├── cleaning decisions              # Clarifications for ETL process
