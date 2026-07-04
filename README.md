@@ -122,34 +122,29 @@ For more details, refer to [docs/requirements.md](https://github.com/crisn2blin
 
 ```
 ├── 01-etl-data-pipeline/
-│   ├── README.md
-│   ├── bronze/
-│   ├── silver/
-│   ├── gold/
+│   ├── datasets/
 │   ├── scripts/
-│   ├── docs/
+│   ├── tests/
+│   ├── README.md
 │
 ├── 02-eda/
-│   ├── README.md
+│   ├── documents/
 │   ├── queries/
-│   ├── query_outputs/
-│   ├── summary page*/
+│   ├── README.md
 │
 ├── 03-dashboard/
+│   ├── dashboard/
+│   ├── documents/
 │   ├── README.md
-│   ├── pbix/
-│   ├── screenshots/
-│   ├── measures/
-│   ├── business insights/
 │
 └── docs/
     ├── data_catalog.md                   # Catalog of datasets, including field descriptions and metadata
-    ├── naming_conventions.md             # Consistent naming guidelines for tables, columns, and files
-    ├── business_task.md                  # Questions meant to be answered by analysis
-    ├── integration_model_diagram.drawio  # Draw.io file shows the project's star schema model
+    ├── data_flow_diagram.drawio          # Draw.io file that shows the flow of data within the pipeline
+    ├── integration_model_diagram.drawio  # Draw.io file shows the project's star schema model
+    ├── naming_conventions.md             # Consistent naming guidelines for tables, columns, and files
     ├── project_diagram.drawio            # Draw.io file shows the project's architecture
     ├── sales_data_mart.drawio            # Draw.io file for data models (star schema)
-    ├── lessons learned
+    
 ```
 
 * * *
