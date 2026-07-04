@@ -62,10 +62,6 @@ AdventureWorks-Business-Intelligence-Dashboard/
 │       ├── LOC_A101.csv                # Raw ERP customer location data
 │       └── PX_CAT_G1V2.csv             # Raw ERP product category data
 │
-├── docs/                               # Project documentation and architecture details
-│   ├── business assumptions            # Assumptions used during analysis and modeling
-│   └── cleaning decisions              # ETL cleaning rules, transformations, and clarifications
-│
 ├── scripts/                            # SQL scripts for ETL and transformations
 │   │
 │   ├── bronze/                         # Scripts for extracting and loading raw data
