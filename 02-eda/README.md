@@ -196,29 +196,31 @@ THE RESULTS OF THE EDA ARE FOUND IN THE “SUMMARY PAGE” DOCUMENT IN THIS REPO
 
 ```
 AdventureWorks-Business-Intelligence-Dashboard/
-02-eda/                                # Exploratory Data Analysis using the gold layer business views
+02-eda/                                  # Exploratory Data Analysis using the gold layer business views
 │
-├── documents/                         # Supporting documentation, summary notes, and planning materials
-│   ├── eda_summary_notes.pdf          # Summary notes and key findings from the EDA process
-│   ├── project_notes_sketches.pdf     # Project notes, sketches, and early analysis planning
-│   └── project_roadmap.pdf            # Roadmap for the broader BI dashboard project
+├── documents/                           # Supporting EDA documentation, notes, sketches, and roadmap materials
+│   ├── eda_summary_notes.pdf            # Summary notes and key findings from the exploratory analysis
+│   ├── project_notes_sketches.pdf       # Project notes, sketches, and planning materials
+│   └── project_roadmap.pdf              # Roadmap for the broader BI dashboard project
 │
-├── queries/                           # SQL scripts used for EDA, reporting, and analytical exploration
-│   ├── 00_init_database.sql           # Initializes or selects the database environment for EDA
-│   ├── 01_database_exploration.sql    # Explores database objects, schemas, tables, and available metadata
-│   ├── 02_dimensions_exploration.sql  # Explores dimension tables and categorical business attributes
-│   ├── 03_date_range_exploration.sql  # Identifies date boundaries and available time ranges
-│   ├── 04_measures_exploration.sql    # Calculates high-level business measures and key metrics
-│   ├── 05_magnitude_analysis.sql      # Compares measure values across business categories
-│   ├── 06_ranking_analysis.sql        # Identifies top and bottom performers using ranking logic
-│   ├── 07_change_over_time_analysis.sql # Analyzes trends across time periods
-│   ├── 08_cumulative_analysis.sql     # Calculates running totals and cumulative business performance
-│   ├── 09_performance_analysis.sql    # Compares current performance against benchmarks or previous periods
-│   ├── 10_data_segmentation.sql       # Segments customers, products, or sales using business rules
-│   ├── 11_part_to_whole_analysis.sql  # Calculates contribution percentages and proportional performance
-│   ├── 12_report_customers.sql        # Builds customer-level analytical reporting output
-│   └── 13_report_products.sql         # Builds product-level analytical reporting output
+├── queries/                             # SQL scripts used for exploratory data analysis
+│   ├── 00_init_database.sql             # Initializes or selects the database environment for Part II analysis
+│   ├── 01_database_exploration.sql      # Explores database schemas, tables, columns, and available metadata
+│   ├── 02_dimensions_exploration.sql    # Explores dimension values, categories, and business attributes
+│   ├── 03_date_range_exploration.sql    # Identifies date boundaries and available order date ranges
+│   ├── 04_measures_exploration.sql      # Calculates high-level business measures and key metrics
+│   ├── 05_magnitude_analysis.sql        # Compares measure values across business categories
+│   ├── 06_ranking_analysis.sql          # Identifies top and bottom performers using ranking logic
+│   ├── 07_change_over_time_analysis.sql # Analyzes trends and measure changes across time
+│   ├── 08_cumulative_analysis.sql       # Calculates running totals and cumulative performance
+│   ├── 09_performance_analysis.sql      # Compares performance against prior periods or benchmarks
+│   ├── 10_data_segmentation.sql         # Segments customers, products, or sales into analytical groups
+│   └── 11_part_to_whole_analysis.sql    # Calculates contribution percentages and proportional performance
 │
-└── README.md                          # Part II overview, requirements, EDA process, and repository structure
+├── reports/                             # SQL scripts used to create final analytical report outputs
+│   ├── 12_report_customers.sql          # Builds customer-level analytical reporting output
+│   └── 13_report_products.sql           # Builds product-level analytical reporting output
+│
+└── README.md                            # Part II overview, requirements, EDA process, and repository structure
 
 ```
