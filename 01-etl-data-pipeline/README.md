@@ -73,7 +73,10 @@ AdventureWorks-Business-Intelligence-Dashboard/
 │   │   └── proc_load_silver.sql        # Cleans, standardizes, and loads data into silver tables
 │   │
 │   ├── gold/                           # Scripts for creating analytical models
-│   │   └── ddl_gold.sql                # Creates gold layer views/business-ready analytical objects
+│   │   ├── ddl_gold.sql                # Creates the gold layer views/business-ready views structure
+│   │   ├── gold.dim_customers.sql      # Creates gold layer views/business-ready analytical objects
+│   │   ├── gold.dim_products.sql       # Creates gold layer views/business-ready analytical objects
+│   │   ├── gold.fact_sales.sql         # Creates gold layer views/business-ready analytical objects
 │   │
 │   └── init_database.sql               # Initializes the database and required schemas
 │
