@@ -135,7 +135,7 @@ These insights empower stakeholders with key business metrics, enabling strategi
 │   ├── documents/
 │   ├── README.md
 │
-├── 04-dashboard/
+├── 04-dashboard (BONUS section)/
 │   ├── dashboard/
 │   ├── documents/
 │   ├── README.md
