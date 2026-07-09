@@ -1,4 +1,4 @@
-## Part III Requirements
+## Part IV Requirements
 
 ### Building the Power BI Dashboard
 
@@ -6,11 +6,11 @@ Objective
 
 This dashboard is simply an addition to the data covered in the previous dashboard (Dec/26/2010 - Jan/26/2014)
 
-Dates covered: Jan/1/2020 to June/30/2022
+Dates covered in this dashboard: Jan/1/2020 to June/30/2022
 
 The dashboard provides insights on how the company changed over the years and an updated view of its financials as well as its operations.
 
-- **Data Sources**: Findings/results from Part II: EDA
+- **Data Sources**: Power BI Maven Analytics course content data files
 
 <br>
 
@@ -49,7 +49,7 @@ The dashboards for this project are the following:
 
 <br>
 
-## 📂 Part III Repository Structure
+## 📂 Part IV Repository Structure
 
 ```
 AdventureWorks-Business-Intelligence-Dashboard/
@@ -64,5 +64,5 @@ AdventureWorks-Business-Intelligence-Dashboard/
 │   ├── dashboard_plan_aw.md              # Dashboard blueprint, layout plan, KPIs, and design notes
 │   └── lessons_learned.docx              # Reflection on project decisions, challenges, and lessons learned
 │
-└── README.md                            # Part III overview, dashboard requirements, skills demonstrated, and repository structure
+└── README.md                            # Part IV overview, dashboard requirements, skills demonstrated, and repository structure
 ```
