@@ -1,6 +1,6 @@
 # AdventureWorks Business Intelligence Dashboard
 
-Welcome to the **Project** repository! This is a three-part project that demonstrates a comprehensive data warehousing and analytics solutions, from building a data warehouse to generating actionable insights through the creation of a business-intelligence dashboard. Designed as a portfolio project that highlights industry best practices in data engineering and analytics.
+Welcome to the **Adventure Works** repository! This is a three-part project that demonstrates a comprehensive data warehousing and analytics solutions, from building a data warehouse to generating actionable insights through the creation of a business-intelligence dashboard. Designed as a portfolio project that highlights industry best practices in data engineering and analytics.
 
 Data is from 2010 to 2014
 
