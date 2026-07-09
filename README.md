@@ -135,7 +135,12 @@ These insights empower stakeholders with key business metrics, enabling strategi
 │   ├── documents/
 │   ├── README.md
 │
-└── docs/
+├── 04-dashboard/
+│   ├── dashboard/
+│   ├── documents/
+│   ├── README.md
+│
+└── docs (do not concern dashboard 4)/
     ├── data_catalog.md                   # Catalog of datasets, including field descriptions and metadata
     ├── data_flow_diagram.drawio          # Draw.io file that shows the flow of data within the pipeline
     ├── integration_model_diagram.drawio  # Draw.io file shows the project's star schema model
