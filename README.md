@@ -112,8 +112,6 @@ Develop Power BI dashboard based on Part II EDA results to deliver detailed busi
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
-For more details, refer to [docs/requirements.md](https://github.com/crisn2blink/AdventureWorks-Business-Intelligence-Dashboard/blob/main/docs/requirements.md).
-
 * * *
 
 <br>
