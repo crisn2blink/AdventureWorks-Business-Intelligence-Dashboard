@@ -58,6 +58,7 @@ AdventureWorks-Business-Intelligence-Dashboard/
 │   ├── dashboard_explanation.docx        # Written explanation of dashboard design, purpose, and insights
 │   ├── dashboard_mockup.pptx             # Dashboard mockup and visual planning presentation
 │   ├── dashboard_plan_aw.md              # Dashboard blueprint, layout plan, KPIs, and design notes
+│   ├── final_business_insights.md        # Quick summary points for business insights
 │   └── lessons_learned.docx              # Reflection on project decisions, challenges, and lessons learned
 │
 └── README.md                            # Part III overview, dashboard requirements, skills demonstrated, and repository structure
