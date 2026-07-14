@@ -53,16 +53,13 @@ The dashboards for this project are the following:
 
 ```
 AdventureWorks-Business-Intelligence-Dashboard/
-03-dashboard/                            # Power BI dashboard development and final reporting layer
+04-dashboard/                            # Power BI dashboard development and final reporting layer
 │
 ├── dashboard/                           # Power BI dashboard file
-│   └── adventure_works_dashboard.pbix    # Final Power BI dashboard file for the AdventureWorks BI project
+│   └── course_adventureworks_report.pbix  # Final Power BI dashboard file for the AdventureWorks BI project
 │
-├── documents/                           # Dashboard planning, explanation, mockup, and reflection documents
-│   ├── dashboard_explanation.docx        # Written explanation of dashboard design, purpose, and insights
-│   ├── dashboard_mockup.pptx             # Dashboard mockup and visual planning presentation
-│   ├── dashboard_plan_aw.md              # Dashboard blueprint, layout plan, KPIs, and design notes
-│   └── lessons_learned.docx              # Reflection on project decisions, challenges, and lessons learned
+├── documents/                            # Dashboard planning, explanation, mockup, and reflection documents
+│   └── final_business_insights           # Quick business insight summary stats
 │
 └── README.md                            # Part IV overview, dashboard requirements, skills demonstrated, and repository structure
 ```
