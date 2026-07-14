@@ -1,4 +1,4 @@
-# 8\. Final Business Insights
+# Final Business Insights
 
 1. Road bikes generate the highest revenue (51%)
 2. In 2013, for some unknown reason, sales of bikes exploded
